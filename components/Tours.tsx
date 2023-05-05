@@ -1,5 +1,7 @@
 import React from 'react'
-import ToursCards from './ToursCards'
+import EarlyTour from './EarlyTour'
+import ExploreTour from './ExploreTour'
+import SilentTour from './SitentTour'
 
 type Props = {}
 
@@ -12,9 +14,10 @@ export default function Tours({}: Props) {
 
         <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]'>
           
-            <ToursCards />
-            <ToursCards />
-            <ToursCards />
+            <ExploreTour />
+            <SilentTour />
+            <EarlyTour />
+            
         
         </div>
         </div>
