@@ -40,7 +40,7 @@ function Header({}: Props) {
         }}
 
         transition={{
-            duration: 1.7,
+            duration: 1.5,
         }}>
         <SocialIcon
                         className='crusior-pointer'
