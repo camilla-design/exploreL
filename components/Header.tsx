@@ -45,12 +45,12 @@ function Header({}: Props) {
         <SocialIcon
                         className='crusior-pointer'
                         network='email'
-                        fgColor='back'
+                        fgColor='white'
                         bgColor='transparent'
                         url='http://localhost:3000/#contact' />
                         
                         <Link href="#contact">
-                        <p className='uppercase hidden md:inline-flex text-sm text-black'>Ta Kontakt</p>
+                        <p className='uppercase hidden md:inline-flex text-sm text-white'>Ta Kontakt</p>
                        
                         </Link>
         </motion.div>
