@@ -7,7 +7,17 @@ type Props = {}
 export default function Hero({}: Props) {
   return (
     <div className='flex  flex-col relative  h-screen text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center text-white'>
-        <div className="pt-5 absolute top-0">
+        <motion.div
+        initial={{
+            opacity: 0,
+        }}
+        whileInView={{
+            opacity: 1,
+        }}
+        transition={{
+            duration: 3,
+        }}
+         className="pt-5 absolute top-0">
                     <Link href="#" >
                         <button className="heroButton">Turer</button>
                     </Link>
@@ -21,9 +31,25 @@ export default function Hero({}: Props) {
                         <button className="heroButton">Kontakt</button>
                     </Link>
 
-                </div>
+                </motion.div>
         
-       <div className='top-20 absolute pt-9'>
+       <motion.div 
+       initial={{
+        y: -500,
+        opacity: 0,
+        scale: 0.5
+    }}
+
+    animate={{
+        y: 0,
+        opacity: 1,
+        scale: 1
+    }}
+
+    transition={{
+        duration: 2,
+    }}
+       className='top-20 absolute pt-9'>
 
        
        <h1 className='text-4xl uppercase font-bold tracking-[2px] text-white w-[300px] '>Explore <span className='font-thin text-black'>Leka med oss</span> </h1>
@@ -33,7 +59,7 @@ export default function Hero({}: Props) {
 
                 
 
-                </div>
+                </motion.div>
                
         
 
