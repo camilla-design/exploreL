@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {}
 
@@ -25,7 +26,25 @@ export default function Hero({}: Props) {
          className='p-3 relative mx-auto mt-11 top-24 '>
         <h1 className='text-2xl uppercase font-bold tracking-[3px] '><span className='text-orange-500'>Explore</span> Leka med oss! </h1>
         <p className='text-s p-3'>Bli med oss og utforsk denne vakkre øya med erfarene guider. Vi tilbyr turer privat guidet turer tilpasset deg!</p>
+
+        <div className="pt-5">
+                    <Link href="#t">
+                        <button className="heroButton">Om oss</button>
+                    </Link>
+                    <Link href="#" >
+                        <button className="heroButton">Turer</button>
+                    </Link>
+                    <Link href="#" >
+                        <button className="heroButton">utleie</button>
+                    </Link>
+                    <Link href="#">
+                        <button className="heroButton">Kontakt</button>
+                    </Link>
+
+                </div>
         </motion.div>
+
+
     </div>
   )
 }
