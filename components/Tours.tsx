@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 import EarlyTour from './EarlyTour'
 import ExploreTour from './ExploreTour'
 import SilentTour from './SitentTour'
@@ -7,7 +8,17 @@ type Props = {}
 
 export default function Tours({}: Props) {
   return (
-    <div className='h-screen  overflow-hidden flex-col text-lft md:flex-row max-w-full justify-evenly mx-auto items-center'>
+    <motion.div 
+    initial={{
+        opacity: 0,
+    }}
+    whileInView={{
+        opacity: 1,
+    }}
+    transition={{
+        duration: 1.4,
+    }}
+    className='h-screen  overflow-hidden flex-col text-lft md:flex-row max-w-full justify-evenly mx-auto items-center'>
         <h2 className='p-0 text-3xl font-bold text-center'>Turerene <span className='font-thin'>vi tilbyr!</span></h2>
         <p className='p-0 text-center'>Vi skreddesyr også turer tilpasset deg, ta kontakt for andre turer.</p>
         <div className='flex relative'>
@@ -21,7 +32,7 @@ export default function Tours({}: Props) {
         
         </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

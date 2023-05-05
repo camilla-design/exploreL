@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {}
 
@@ -7,7 +8,21 @@ export default function SilentTour({}: Props) {
   return (
     <div >
         <article className='flex flex-col rounded-lg items-center space-y-1 bg-gray-300 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center  p-5  cursor-pointer transition-opacity duration-200 overflow-hidden'>
-        <img
+        <motion.img
+        initial={{
+            y: -100,
+            opacity: 0,
+        }}
+        transition={{
+            duration: 1.2,
+        }}
+        whileInView={{
+            opacity: 1,
+            y: 0,
+        }}
+        viewport={{
+            once: true,
+        }}
          className='w-[200px] h-[200px] object-cover object-center rounded-xl'
          src="silent-4.jpg"/>
 
