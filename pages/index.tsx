@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import About from '@/components/About'
 
 
 const Home: NextPage = () => {
@@ -25,6 +26,10 @@ const Home: NextPage = () => {
         {/* HERO */ }
 
         {/* ABOUT */ }
+
+      <section className='snap-start ' >
+        <About  />
+        </section>
 
         {/* TOURS */ }
 
