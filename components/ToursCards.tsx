@@ -5,12 +5,12 @@ type Props = {}
 export default function ToursCards({}: Props) {
   return (
     <div >
-        <article className='flex flex-col rounded-lg items-center space-y-1 bg-black flex-shrink-0 w-[400px] md:w-[600px] xl:w-[800px] snap-center  p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+        <article className='flex flex-col rounded-lg items-center space-y-1 bg-gray-300 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[800px] snap-center  p-5  cursor-pointer transition-opacity duration-200 overflow-hidden'>
         <img
-         className='w-[200px] h-[200px] object-cover object-center'
+         className='w-[200px] h-[200px] object-cover object-center rounded-xl'
          src="hero-img-1.jpg"/>
 
-         <div className='px-0 md:px-5 text-gray-200'>
+         <div className='px-0 md:px-5 text-black'>
              <h4 className='pt-3 pb-3 font-bold text-xl'>Explore Leka</h4>
              <p className='font-thin'>Dette er en litt lengre vandretur innover øya hvor vi kommer til å gå innom bergarter fra jordens indre.
 
