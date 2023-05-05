@@ -26,7 +26,7 @@ export default function Hero({}: Props) {
        <div className='top-20 absolute pt-9'>
 
        
-       <h1 className='text-3xl uppercase font-bold tracking-[2px] text-white '>Explore <span className='font-thin text-black'>Leka med oss</span> </h1>
+       <h1 className='text-4xl uppercase font-bold tracking-[2px] text-white w-[300px] '>Explore <span className='font-thin text-black'>Leka med oss</span> </h1>
         <p className='text-s pt-3 w-[300px] md:w-[400px]'>Bli med oss og utforsk denne vakkre øya med erfarene guider. Vi tilbyr privat guidet tur tilpasset deg!</p>
 
         
