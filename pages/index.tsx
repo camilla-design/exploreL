@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
         {/* HEADER */ }
         <div className=' text-gray-400  snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16] '>
-        <img src="" className='h-screen absolute inset-0 object-cover object-center mx-auto'/>
+        <img src="backround-hero.jpg" className='h-screen absolute inset-0 object-cover object-center mx-auto'/>
 
         <section className='snap-start '>
         <Header />
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
 
         {/* HERO */ }
-        <section className='snap-start ' >
+        <section className='snap-center ' >
         <Tours  />
         </section>
 
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 
         {/* ABOUT */ }
 
-      <section className='snap-start ' >
+      <section className='snap-center ' >
         <About  />
         </section>
 

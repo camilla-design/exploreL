@@ -1,11 +1,29 @@
 import React from 'react'
+import ToursCards from './ToursCards'
 
 type Props = {}
 
 export default function Tours({}: Props) {
   return (
-    <div className='h-screen relative overflow-hidden  text-left  max-w-full justify-evenly mx-auto items-center z-0'>
-        <div className='flex-col md:flex-row relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]'>
+    <div className='h-screen  overflow-hidden flex-col text-lft md:flex-row max-w-full justify-evenly mx-auto items-center'>
+        <h2 className='p-0 text-3xl font-bold text-center'>Turerene <span className='font-thin'>vi tilbyr!</span></h2>
+        <p className='p-0 text-center'>Vi skreddesyr også turer tilpasset deg, ta kontakt for andre turer.</p>
+        <div className='flex relative'>
+
+        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]'>
+          
+            <ToursCards />
+            <ToursCards />
+            <ToursCards />
+        
+        </div>
+        </div>
+    </div>
+  )
+}
+
+/*
+<div className='flex-col md:flex-row relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]'>
            <div className='snap-center flex flex-col space-y-1 items-center justify-center p-20 md:p-44 h-screen'>
            <h2 className=' text-3xl font-bold'>Turerene <span className='font-thin'>vi tilbyr!</span></h2>
             <p className='pb-3'>Vi skreddesyr også turer tilpasset deg, ta kontakt for andre turer.</p>
@@ -24,8 +42,5 @@ Vi vandrer inn mot jordens indre og tråkker på 500 millioner år gamle bergart
             
         </div>
 
-        
-    </div>
-  )
-}
 
+*/ 
