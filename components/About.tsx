@@ -6,6 +6,9 @@ type Props = {}
 
 export default function About({}: Props) {
   return (
+    <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-cente'>
+        <img src="backround-hero.jpg" className='h-screen absolute inset-0 object-cover object-center mx-auto opacity-[30%]'/>
+    
     <motion.div
     initial={{
         x:-100,
@@ -45,19 +48,21 @@ export default function About({}: Props) {
             <div>
             <img src='marieann.jpg' className='w-32 h-32 rounded-full p-3 ' />
             <p>Marianne Aune</p>
-            <SocialIcon url="https://www.facebook.com/exploreleka.no" fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url="https://www.facebook.com/exploreleka.no" fgColor='black' bgColor='transparent'/>
                   
             </div>
             <div>
             <img src="lenereppen.jpg" className='w-32 h-32 rounded-full p-3' />
             <p>Lene Reppen Grydeland</p>
-            <SocialIcon url="https://www.facebook.com/exploreleka.no" fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url="https://www.facebook.com/exploreleka.no" fgColor='black' bgColor='transparent'/>
 
             </div>
         </div>
         </div>
+        
 
        
         </motion.div>
+        </div>
   )
 }

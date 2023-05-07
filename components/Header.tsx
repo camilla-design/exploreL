@@ -8,7 +8,8 @@ type Props = {}
 function Header({}: Props) {
   return (
     <header>
-        <div className=' sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+        <div className='sticky  p-5 pb-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+        
             <motion.div initial={{
                     x: -500,
                     opacity: 0,
@@ -26,6 +27,16 @@ function Header({}: Props) {
                 }} className=''>
         <img src="/exploreleka-logo-color.png" width={80} height={80} />
         </motion.div>
+        <div className='flex flex-row'>
+        <Link href="#" className='mt-1 opacity-100 hover:opacity-70 cursor-pointer transition-opacity'>
+            <img src="norwegian-flag.png" width={50} />
+          </Link>
+        <Link href="#" className=' hover:opacity-100 opacity-70 cursor-pointer transition-opacity '>
+        <img src="english-flag.png" width={50} />
+        </Link>
+        
+          
+        </div>
         <motion.div
         initial={{
             x: 500,
@@ -45,7 +56,7 @@ function Header({}: Props) {
         <SocialIcon
                         className='crusior-pointer'
                         network='email'
-                        fgColor='white'
+                        fgColor='black'
                         bgColor='transparent'
                         url='http://localhost:3000/#contact' />
                         

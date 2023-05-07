@@ -7,7 +7,7 @@ type Props = {}
 export default function ExploreTour({}: Props) {
   return (
     <div >
-        <article className='flex flex-col rounded-lg items-center space-y-1 bg-gray-300 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center  p-5  cursor-pointer transition-opacity duration-200 overflow-hidden'>
+        <article className='flex flex-col rounded-lg items-center space-y-1 bg-gray-100 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center  p-5  cursor-pointer transition-opacity duration-200 overflow-hidden'>
         <motion.img
         initial={{
           y: -100,

@@ -6,7 +6,11 @@ type Props = {}
 
 export default function Hero({}: Props) {
   return (
-    <div className='flex  flex-col relative  h-screen text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center text-white'>
+    <div>
+    <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
+    <img src="backround-hero.jpg" className='h-screen absolute inset-0 object-cover object-center mx-auto opacity-[30%]'/>
+  
+        
         <motion.div
         initial={{
             opacity: 0,
@@ -17,12 +21,9 @@ export default function Hero({}: Props) {
         transition={{
             duration: 3,
         }}
-         className="pt-5 absolute top-0">
+         className="mt-5 absolute top-0">
                     <Link href="#" >
                         <button className="heroButton">Turer</button>
-                    </Link>
-                    <Link href="#" >
-                        <button className="heroButton">utleie</button>
                     </Link>
                     <Link href="#">
                         <button className="heroButton">Om oss</button>
@@ -49,11 +50,12 @@ export default function Hero({}: Props) {
     transition={{
         duration: 2,
     }}
-       className='top-20 absolute pt-9'>
+       className=''>
 
        
-       <h1 className='text-4xl uppercase font-bold tracking-[2px] text-white w-[300px] md:w-full '>Explore <span className='font-thin text-black'>Leka med oss</span> </h1>
+       <h1 className='text-4xl uppercase font-bold tracking-[2px] text-black w-[300px] md:w-full '>Explore <span className='font-thin text-black'>Leka med oss</span> </h1>
         <p className='text-s pt-3 w-[300px] md:w-[400px]'>Bli med oss og utforsk denne vakkre øya med erfarene guider. Vi tilbyr privat guidet tur tilpasset deg!</p>
+        <img src="hero-img-1.jpg" className='relative rounded-full h-60 w-60 mx-auto object-cover mt-5' />
 
         
 
@@ -63,6 +65,7 @@ export default function Hero({}: Props) {
                
         
 
+    </div>
     </div>
   )
 }
