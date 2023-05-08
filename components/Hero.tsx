@@ -38,11 +38,11 @@ export default function Hero({}: Props) {
 
         <div className="flex-shrink-0">
           <img
-            src="background_img_ipad.jpg"
+            src="hero_ipad_v2.jpg"
             className="h-screen md:hidden relative inset-0 object-cover object-center mx-auto z-0"
           />
           <img
-            src="background_full.jpg"
+            src="hero_full_v2.jpg"
             className="h-screen hidden md:block absolute inset-0 object-cover object-center mx-auto z-0"
           />
         </div>
