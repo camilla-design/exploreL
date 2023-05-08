@@ -18,8 +18,8 @@ const Home: NextPage = () => {
     
         
 <section>
-          
-        <Header />
+          <Header />
+       
         </section>
      
       <section>

@@ -10,7 +10,15 @@ export default function Tours({}: Props) {
   return (
 
     <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center '>
-        <img src="backround-hero.jpg" className='h-screen absolute inset-0 object-cover object-center mx-auto opacity-[30%]'/>
+      
+    </div>
+   
+  )
+}
+
+/*
+
+  <img src="backround-hero.jpg" className='h-screen absolute inset-0 object-cover object-center mx-auto opacity-[30%]'/>
     
     <motion.div 
     initial={{
@@ -40,8 +48,5 @@ export default function Tours({}: Props) {
         </div>
         </div>
     </motion.div>
-    </div>
-   
-  )
-}
 
+ */
