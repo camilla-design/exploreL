@@ -79,7 +79,7 @@ function Header({}: Props) {
         transition={{
             duration: 3,
         }}
-         className=" flex relative overflow-hidden text-lft md:flex-row max-w-[500px] px-10 justify-evenly mx-auto items-center ">
+         className=" flex z-10 relative overflow-hidden text-lft md:flex-row max-w-[500px] px-10 justify-evenly mx-auto items-center ">
                     <Link href="#" >
                         <button className="heroButton">Turer</button>
                     </Link>

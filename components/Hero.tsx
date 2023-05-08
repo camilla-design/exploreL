@@ -6,7 +6,7 @@ type Props = {};
 export default function Hero({}: Props) {
   return (
     <div>
-      <div className="flex flex-col relative  h-screen text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center">
+      <div className="flex flex-col relative  h-[90vh] text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center">
         <motion.div
           initial={{
             y: -500,
@@ -21,13 +21,13 @@ export default function Hero({}: Props) {
           transition={{
             duration: 2,
           }}
-          className="px-0 md:px-10 z-20 md:w-full absolute top-20"
+          className="px-0 md:px-10 z-20 md:w-full absolute top-10"
         >
-          <h1 className="text-5xl uppercase md:text-7xl font-bold tracking-[2px] text-[#ffa500] w-[300px] md:w-full ">
+          <h1 className="text-4xl uppercase md:text-7xl font-bold tracking-[2px] text-[#ffa500] w-[300px] md:w-full ">
             Explore<br></br>{" "}
-            <span className="font-bold text-3xl md:text-4xl text-black">Leka med oss</span>{" "}
+            <span className="font-bold text-2xl md:text-4xl text-black">Leka med oss</span>{" "}
           </h1>
-          <p className="text-s pt-3 w-[300px] md:w-[400px]">
+          <p className="text-s pt-3 w-[300px] md:w-[400px] font-thin">
             Bli med oss og utforsk denne vakkre øya med erfarene guider. Vi
             tilbyr privat guidet tur tilpasset deg!
           </p>

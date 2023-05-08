@@ -9,33 +9,8 @@ type Props = {}
 export default function Tours({}: Props) {
   return (
 
-    <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full justify-evenly mx-auto items-center '>
-        <motion.div 
-    initial={{
-        opacity: 0,
-    }}
-    whileInView={{
-        opacity: 1,
-    }}
-    transition={{
-        duration: 1.4,
-    }}
-    className='h-screen  overflow-hidden flex-col text-lft md:flex-row max-w-full justify-evenly mx-auto items-center'>
-
-        
-
-        
-        <div className='flex relative pt-20'>
-
-        <div className=' '>
-          
-            <ExploreTour />
-            
-            
-        
-        </div>
-        </div>
-    </motion.div>
+    <div className='h-screen flex relative  '>
+      <img src="silent_img.jpg" />
       
     </div>
    

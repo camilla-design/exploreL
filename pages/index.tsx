@@ -34,10 +34,10 @@ const Home: NextPage = () => {
        
        
       <section>
-        <ExploreTour  />
-        <SilentTour />
+        <ExploreTour />
         
         </section>
+        <SilentTour />
 
         <section>
          
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
         {/* ABOUT */ }
 
      <section>
-        <About  />
+        
         </section>
       
 
