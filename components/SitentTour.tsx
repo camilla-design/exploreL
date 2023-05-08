@@ -6,36 +6,41 @@ type Props = {}
 
 export default function SilentTour({}: Props) {
   return (
-    <div >
-        <article className='flex flex-col rounded-lg items-center space-y-1 bg-gray-100 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center  p-5  cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <div className='flex flex-col relative p-0 m-0  h-screen text-center md:text-left md:flex-row max-w-7xl  justify-evenly mx-auto items-center' >
+      <article className='flex flex-col  items-center '>
+     
+        
         <motion.img
         initial={{
-            y: -100,
-            opacity: 0,
-        }}
-        transition={{
-            duration: 1.2,
-        }}
-        whileInView={{
-            opacity: 1,
-            y: 0,
-        }}
-        viewport={{
-            once: true,
-        }}
-         className='w-[200px] h-[200px] object-cover object-center rounded-xl'
-         src="silent-4.jpg"/>
+          y: -100,
+          opacity: 0,
+      }}
+      transition={{
+          duration: 1.2,
+      }}
+      whileInView={{
+          opacity: 1,
+          y: 0,
+      }}
+      viewport={{
+          once: true,
+      }}
+         className='absolute inset-0 object-cover object-center mx-auto z-0 top-0'
+         src="silent_img.jpg"/>
 
-         <div className='px-0 md:px-5 text-black'>
-             <h4 className='pt-3 pb-3 font-bold text-xl'>Silence in the night</h4>
-             <p className='font-thin'>Vi vandrer ut mot havet til Buøyoddan med sine fine jettegryter og svaberg.</p>
-             <p>Turen tar 2-3 timer.</p>
-             <p className='text-[#00a86b] pt-3 pb-5'>Pris: 490,- pr pers + 250,- hvis det ønskes tilrettelagt for mat og drikke.</p>
+<div className='md:px-5 z-20 relative px-8'>
+             <h4 className='pt-3 pb-3 font-bold text-3xl text-[#ffa500]'>Silent <span className='text-black'>in the night </span> </h4>
+             <p className='font-thin pb-2'>Senk skuldrene sammen med sola som går ned i havet, la stresset og hverdagssysler fly avsted med lyden av fuglenes sang, la hjertet finne rytmen i bølgenes skvulp mot svaberget... Bare puste og nyte. Tillat deg selv å bare være.</p>
+             <p>Turen tar 5-6 timer</p>
+             <p className='text-[#00a86b] pt-3 pb-5'>Pris: 990,- pr pers. + 250,- hvis det ønskes tilrettelagt for mat og drikke.</p>
              <Link href="#" className='readMoreButton' >
                 <button>Les mer</button>
              </Link>
          </div>
+
+         
     </article>
+        
     </div>
   )
 }

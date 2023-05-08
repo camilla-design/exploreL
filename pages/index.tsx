@@ -5,6 +5,8 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Tours from '@/components/Tours'
+import ExploreTour from '@/components/ExploreTour';
+import SilentTour from '@/components/SitentTour';
 
 
 const Home: NextPage = () => {
@@ -30,9 +32,19 @@ const Home: NextPage = () => {
 
         {/* HERO */ }
        
+       
       <section>
-        <Tours  />
+        <ExploreTour  />
+        <SilentTour />
+        
         </section>
+
+        <section>
+         
+        </section>
+        
+
+        
      
 
          {/* TOURS */ }

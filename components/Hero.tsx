@@ -25,7 +25,7 @@ export default function Hero({}: Props) {
         >
           <h1 className="text-5xl uppercase md:text-7xl font-bold tracking-[2px] text-[#ffa500] w-[300px] md:w-full ">
             Explore<br></br>{" "}
-            <span className="font-bold text-3xl md:text-5xl text-black">Leka med oss</span>{" "}
+            <span className="font-bold text-3xl md:text-4xl text-black">Leka med oss</span>{" "}
           </h1>
           <p className="text-s pt-3 w-[300px] md:w-[400px]">
             Bli med oss og utforsk denne vakkre øya med erfarene guider. Vi
