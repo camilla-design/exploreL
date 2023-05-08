@@ -55,7 +55,7 @@ export default function Hero({}: Props) {
        
        <h1 className='text-5xl uppercase font-bold tracking-[2px] text-[#ffa500] w-[300px] md:w-full '>Explore <span className='font-bold text-3xl text-black'>Leka med oss</span> </h1>
         <p className='text-s pt-3 w-[300px] md:w-[400px]'>Bli med oss og utforsk denne vakkre øya med erfarene guider. Vi tilbyr privat guidet tur tilpasset deg!</p>
-        <button className='pt-2 pb-2 pl-4 pr-4 rounded-full mt-16 bg-[#ffa500]'>Kontakt oss</button>
+        <button className='pt-2 pb-2 pl-4 pr-4 rounded-full mt-5 bg-[#ffa500]'>Kontakt oss</button>
       
 
         
