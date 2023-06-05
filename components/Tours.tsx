@@ -9,8 +9,8 @@ type Props = {}
 export default function Tours({}: Props) {
   return (
 
-    <div className='h-screen flex relative  '>
-      <img src="silent_img.jpg" />
+    <div className='h-screen flex relative '>
+      <ExploreTour />
       
     </div>
    

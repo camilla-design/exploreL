@@ -16,38 +16,37 @@ const Home: NextPage = () => {
           <title> Explore Leka</title>
       </Head>
         {/* HEADER */ }
-        <div className=' snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16] '>
+        <div className=' snap-y snap-mandatory overflow-y-scroll  overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16] '>
     
         
-<section>
-          <Header />
-       
-        </section>
-     
-      <section>
+    <Header />
+
+     {/* HERO */ }
+      
+      <section className='snap-start' >
         <Hero  />
         </section>
        
 
 
-        {/* HERO */ }
        
+       {/* TOURS */ }
        
-      <section>
-        <ExploreTour />
-        
+      <section className='snap-center' >
+      
+        <Tours />
         </section>
-        <SilentTour />
+       
 
-        <section>
-         
+        <section >
+      
         </section>
         
 
         
      
 
-         {/* TOURS */ }
+         
 
         {/* ABOUT */ }
 
