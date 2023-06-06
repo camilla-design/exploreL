@@ -6,7 +6,7 @@ type Props = {}
 
 export default function EarlyTour({}: Props) {
   return (
-    <article className=" h-[700px] flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center  ">
+    <article className=" h-[700px] flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] snap-center  ">
 
 
    
