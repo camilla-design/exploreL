@@ -9,7 +9,7 @@ type Props = {};
 export default function Hero({}: Props) {
   return (
 
-    <div className="containerStyle">
+    <div className="containerStyle w-full">
 
 
         
@@ -63,7 +63,7 @@ export default function Hero({}: Props) {
     </div>
 
    
-        <div className="imageGrid ">
+        <div className="imageGrid w-full place-content-center">
           <div className="...">
             <img src="landscape1.jpg" />
           </div>

@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <Hero  />
         </section>
        
-
+   
 
        
        {/* TOURS */ }

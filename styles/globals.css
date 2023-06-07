@@ -20,11 +20,11 @@
 }
 
 .imageGrid {
-  @apply grid grid-cols-3 w-[550px] md:w-[900px] max-w-[900px] mx-auto   absolute -bottom-10 md:-bottom-20
+  @apply grid grid-cols-3 mx-auto items-center justify-center  absolute -bottom-10 md:-bottom-20 text-center md:max-w-[900px]
 }
 
 .scrollBar {
-  @apply w-full md:w-[1000px] flex space-x-7 overflow-x-scroll  p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/90 scrollbar-thumb-[#ffa500]/10
+  @apply w-full md:w-[1000px] flex space-x-7 overflow-x-scroll  p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/90 scrollbar-thumb-[#ffa500]/10 
 }
 
   .contactInput {
