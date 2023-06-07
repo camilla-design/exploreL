@@ -63,7 +63,7 @@ export default function Hero({}: Props) {
     </div>
 
    
-        <div className="grid grid-cols-3 z-20 max-w-[900px]  absolute -bottom-10 md:-bottom-20">
+        <div className="imageGrid ">
           <div className="...">
             <img src="landscape1.jpg" />
           </div>
