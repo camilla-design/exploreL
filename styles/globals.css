@@ -12,15 +12,15 @@
 }
 
 .containerStyle {
-  @apply h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden
+  @apply h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pb-0 mb-0
 }
 
 .heroBackgroundImg {
-  @apply h-screen  inset-0 object-cover object-center mx-auto 
+  @apply h-screen  inset-0 object-cover object-center mx-auto pb-0 mb-0
 }
 
 .imageGrid {
-  @apply grid grid-cols-3 mx-auto items-center justify-center  absolute -bottom-14 md:-bottom-20 text-center md:max-w-[900px]
+  @apply grid grid-cols-3 mx-auto items-center justify-center   text-center md:max-w-[900px]
 }
 
 .scrollBar {
