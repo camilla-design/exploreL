@@ -38,7 +38,8 @@ export default function EarlyTour({}: Props) {
       <div className=" mx-0 top-0 text-center overflow-hidden z-20 pt-5  ">
       <h1 className="text-3xl  text-[#ffa500] font-semibold ">Early <span className='text-black font-bold'>Bird</span></h1>
     
-      <p className="p-3 pb-0 text-sm text-left ">Earlybird-tur med sykkel ut til Skeisnesset for å spise frokost. Her kan det være rom for fotosafari, eller skriveøkter for de som har hjertet i diktning, poesi eller annen form for skriving. Vandretur ut til nordenden av Leka, blant kystlynghei, gravhauger, fugler og villsau for å se på morgensolen stå opp. Frokost og morgensol i fredfulle omgivelser, for oss som ønsker en ekstra vakker start på dagen. Turen er godt egnet til morgenyoga, meditasjon eller foto- og diktinspirasjon. </p>
+      <p className="p-3 pb-0 text-sm text-left ">Early-tur med sykkel ut til Skeisnesset for å spise frokost, fotografering etc. Vandretur ut til nordenden av Leka, blant kystlynghei, gravhauger, fugler og villsau for å se på morgensolen stå opp. Frokost og morgensol i fredfulle omgivelser, for oss som ønsker en ekstra vakker start på dagen.  </p>
+      <p className='text-sm text-left p-3'>Turen er godt egnet til morgenyoga, meditasjon eller foto- og diktinspirasjon.</p>
       <p className="p-1 text-sm pt-2 font-bold">Pris: <span className='text-green-500'>490,-</span> pr pers. + <span className='text-green-500'>250,-</span> hvis det ønskes tilrettelagt for mat og drikke.</p>
       <button className="ctoaButton text-black border-2 border-white">Les Mer</button>
 
@@ -46,16 +47,16 @@ export default function EarlyTour({}: Props) {
     </div>
     <div className='grid grid-cols-2  border-2 border-black mt-2  '>
             <div className='...'>
-            <img src="explore-background.jpg" className="   " />
+            <img src="early_1.jpg" className="   " />
             </div>
             <div className='...'>
-            <img src="explore-background.jpg" className="   " />
+            <img src="early_2.jpg" className="   " />
             </div>
             <div className='...'>
-            <img src="explore-background.jpg" className="  " />
+            <img src="early_3.jpg" className="  " />
             </div>
             <div className='...'>
-            <img src="explore-background.jpg" className=" " />
+            <img src="early_4.jpg" className=" " />
             </div>
         </div>
    
