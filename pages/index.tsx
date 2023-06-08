@@ -38,9 +38,7 @@ const Home: NextPage = () => {
         </section>
        
 
-        <section >
-      
-        </section>
+       
         
 
         

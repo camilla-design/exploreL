@@ -20,7 +20,7 @@
 }
 
 .imageGrid {
-  @apply grid grid-cols-3 mx-auto items-center justify-center  absolute -bottom-10 md:-bottom-20 text-center md:max-w-[900px]
+  @apply grid grid-cols-3 mx-auto items-center justify-center  absolute -bottom-14 md:-bottom-20 text-center md:max-w-[900px]
 }
 
 .scrollBar {
