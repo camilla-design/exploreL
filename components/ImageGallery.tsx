@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 type Props = {}
 
-export default function ImageGridGallery({}: Props) {
+export default function ImageGallery({}: Props) {
   return (
 <div className='relative pt-0 mt-0'>
         

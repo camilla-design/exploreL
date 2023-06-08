@@ -3,7 +3,7 @@ import Link from "next/link";
 import Head from 'next/head'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
-import ImageGridGallery from '@/components/imageGridGallery';
+import ImageGallery from '@/components/ImageGallery';
 import About from '@/components/About'
 import Tours from '@/components/Tours'
 import ExploreTour from '@/components/ExploreTour';
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           <title> Explore Leka</title>
       </Head>
         {/* HEADER */ }
-        <div className=' snap-y snap-mandatory overflow-y-scroll  overflow-x-hidden z-0  scrollbar-thin scrollbar-track-[#dc7d2a]/60 scrollbar-thumb-[#dc7d2a] '>
+        <div className=' snap-y snap-mandatory overflow-y-scroll  overflow-x-hidden z-0  scrollbar-thin scrollbar-track-[#dc7d2a]/60 scrollbar-thumb-[#dc7d2a] display:-webkit-flex '>
     
         
     <Header />
@@ -27,8 +27,9 @@ const Home: NextPage = () => {
       <section className='snap-start' >
         <Hero  />
         </section>
-        <section className=' '>
-        <ImageGridGallery />
+
+        <section className='snap-center '>
+        <ImageGallery />
         </section>
        
    
