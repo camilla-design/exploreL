@@ -54,13 +54,13 @@ const Home: NextPage = () => {
         {/* ABOUT */ }
 
      <section>
-        
+        <About />
         </section>
       
 
        </div>
 
-        {/* RENT BIKE */ }
+       
 
         {/* FEEDBACK */ }
 
