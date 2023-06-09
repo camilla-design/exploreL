@@ -33,7 +33,7 @@ export default function ExploreTour({}: Props) {
     className="  border-2 border-black rounded-lg " >
         
     <div className='relative bg-[#ffa500] w-[100px] p-2 rounded-md'>
-        <p>2-6 timer</p>
+        <p>5-6 timer</p>
     </div>
       
       <div className=" mx-0 top-0 text-center overflow-hidden z-20 pt-5  ">
