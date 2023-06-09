@@ -21,7 +21,7 @@ export default function About({}: Props) {
     transition={{
         duration: 1.4,
     }}
-    className='flex flex-col relative w-[350px] md:w-full  h-screen text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center'>
+    className='flex flex-col relative w-[300px] md:w-full  h-screen text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center'>
          <div className='px-0 md:px-10'>
         <motion.img
          initial={{
@@ -43,7 +43,7 @@ export default function About({}: Props) {
         </div>
         <div className=''>
         <h4 className='text-4xl text-black font-bold'>Litt <span className='font-thin'> om oss</span> </h4>
-        <p className='p-4 md:p-0 w-[360px] mx-auto md:w-[400] text-left text-md font-normal'  >Explore Leka – Et selskap startet av oss to; Marieann Aune og Lene Reppen Grydeland, fordi vi elsker å være ute på tur, og våre hjerter banker hardt og varmt for Leka. Denne øya er så vakker, magisk og unik! Hva vi ser- og opplever når vi er ute på tur, DET vil vi bidra med å vise frem til dere som besøker Leka. Vi vil dele vår turglede, våre naturopplevelser og vår kjærlighet til Leka med dere.</p>
+        <p className='p-6 md:p-0 w-[360px] mx-auto md:w-[400] text-left text-md font-normal'  >Explore Leka – Et selskap startet av oss to; Marieann Aune og Lene Reppen Grydeland, fordi vi elsker å være ute på tur, og våre hjerter banker hardt og varmt for Leka. Denne øya er så vakker, magisk og unik! Hva vi ser- og opplever når vi er ute på tur, DET vil vi bidra med å vise frem til dere som besøker Leka. Vi vil dele vår turglede, våre naturopplevelser og vår kjærlighet til Leka med dere.</p>
         <div className='flex justify-evenly mx-auto items-center'>
             <div>
             <img src='marieann.jpg' className='w-32 h-32 rounded-full p-3 ' />
