@@ -48,16 +48,16 @@ export default function SilentTour({}: Props) {
     </div>
     <div className='grid grid-cols-2  border-2 border-black mt-2  '>
             <div className='...'>
-            <img src="explore-background.jpg" className="   " />
+            <img src="silent_1.jpg" className="   " />
             </div>
             <div className='...'>
-            <img src="explore-background.jpg" className="   " />
+            <img src="silent_2.jpg" className="   " />
             </div>
             <div className='...'>
-            <img src="explore-background.jpg" className="  " />
+            <img src="silent_3.jpg" className="  " />
             </div>
             <div className='...'>
-            <img src="explore-background.jpg" className=" " />
+            <img src="silent_4.jpg" className=" " />
             </div>
         </div>
    
