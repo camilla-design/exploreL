@@ -43,7 +43,7 @@ export default function About({}: Props) {
         </div>
         <div>
         <h4 className='text-4xl text-black font-bold'>Litt <span className='font-thin'> om oss</span> </h4>
-        <p className='p-4 md:p-0 w-[360px] md:w-[400] text-md font-thin'  >Explore Leka – Et selskap startet av oss to; Marieann Aune og Lene Reppen Grydeland, fordi vi elsker å være ute på tur, og våre hjerter banker hardt og varmt for Leka. Denne øya er så vakker, magisk og unik! Hva vi ser- og opplever når vi er ute på tur, DET vil vi bidra med å vise frem til dere som besøker Leka. Vi vil dele vår turglede, våre naturopplevelser og vår kjærlighet til Leka med dere.</p>
+        <p className='p-4 md:p-0 w-[360px] md:w-[400] text-md font-normal'  >Explore Leka – Et selskap startet av oss to; Marieann Aune og Lene Reppen Grydeland, fordi vi elsker å være ute på tur, og våre hjerter banker hardt og varmt for Leka. Denne øya er så vakker, magisk og unik! Hva vi ser- og opplever når vi er ute på tur, DET vil vi bidra med å vise frem til dere som besøker Leka. Vi vil dele vår turglede, våre naturopplevelser og vår kjærlighet til Leka med dere.</p>
         <div className='flex justify-evenly mx-auto items-center'>
             <div>
             <img src='marieann.jpg' className='w-32 h-32 rounded-full p-3 ' />
