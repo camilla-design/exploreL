@@ -47,8 +47,8 @@ function ContactUs({ }: Props) {
 
 
                 {/* Form */}
-                <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
-                    <div className='flex space-x-2'>
+                <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-[300px] md:w-fit mx-auto'>
+                    <div className='flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0 '>
                         <input {...register('name')} className='contactInput' placeholder='Name' type="text" />
                         <input {...register('email')} className='contactInput' placeholder='Email' type="email" />
                     </div>
