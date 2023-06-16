@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -33,7 +32,9 @@ export default function ExploreTour({}: Props) {
             tilrettelagt for mat og drikke.
           </p>
           <button className="ctoaButton text-black border-2 border-white">
-            Les Mer
+          <Link href="#contact" >
+            Kontakt oss
+          </Link>
           </button>
         </div>
         <div className="grid grid-cols-2  border-2 border-black mt-2  ">

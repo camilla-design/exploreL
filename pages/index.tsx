@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
      {/* HERO */ }
       
-      <section className='snap-start' >
+      <section id="hero" className='snap-start' >
         <Hero  />
         </section>
 
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
        
        {/* TOURS */ }
        
-      <section className='snap-center' >
+      <section id="tours" className='snap-center' >
       
         <Tours />
         </section>
@@ -46,13 +46,13 @@ const Home: NextPage = () => {
 
         {/* ABOUT */ }
 
-     <section className='snap-center'>
+     <section id="about" className='snap-center'>
         <About />
         </section>
 
          {/* CONTACT */ }
 
-        <section className='snap-center'>
+        <section id="contact" className='snap-center'>
         <ContactUs />
        </section>
       

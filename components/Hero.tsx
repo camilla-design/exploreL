@@ -45,13 +45,13 @@ export default function Hero({}: Props) {
         </div>
       </motion.div>
       <div className="z-10 absolute text-center font-bold">
-        <Link href="#">
+        <Link href="#tours">
           <button className="heroButton">Turer</button>
         </Link>
-        <Link href="#">
+        <Link href="#about">
           <button className="heroButton">Om oss</button>
         </Link>
-        <Link href="#">
+        <Link href="#contact">
           <button className="heroButton">Kontakt</button>
         </Link>
       </div>
