@@ -8,6 +8,7 @@ import About from '@/components/About'
 import Tours from '@/components/Tours'
 import ExploreTour from '@/components/ExploreTour';
 import SilentTour from '@/components/SitentTour';
+import ContactUs from '@/components/ContactUs';
 
 
 const Home: NextPage = () => {
@@ -41,30 +42,28 @@ const Home: NextPage = () => {
       
         <Tours />
         </section>
-       
-
-       
-        
-
-        
-     
-
-         
+      
 
         {/* ABOUT */ }
 
-     <section>
+     <section className='snap-center'>
         <About />
         </section>
+
+         {/* CONTACT */ }
+
+        <section className='snap-center'>
+        <ContactUs />
+       </section>
       
 
        </div>
 
        
 
-        {/* FEEDBACK */ }
+      
 
-        {/* CONTACT */ }
+       
       
       
 
