@@ -38,12 +38,12 @@ export default function About({}: Props) {
         viewport={{
             once: true,
         }}
-         src="exploreleka-logo-color.png" width={300} className=' mb:mb-0 flex-shrink-0' />
+         src="exploreleka-logo-color.png"  className=' mb:mb-0 w-[200px] md:w-[300px] flex-shrink-0' />
         
         </div>
         <div className=''>
-        <h4 className='text-4xl text-black font-bold'>Litt <span className='font-thin'> om oss</span> </h4>
-        <p className='p-6 md:p-0 w-[360px] mx-auto md:w-[400] text-left text-md font-normal'  >Explore Leka – Et selskap startet av oss to; Marieann Aune og Lene Reppen Grydeland, fordi vi elsker å være ute på tur, og våre hjerter banker hardt og varmt for Leka. Denne øya er så vakker, magisk og unik! Hva vi ser- og opplever når vi er ute på tur, DET vil vi bidra med å vise frem til dere som besøker Leka. Vi vil dele vår turglede, våre naturopplevelser og vår kjærlighet til Leka med dere.</p>
+        <h4 className='text-3xl text-black font-bold'>Litt <span className='font-thin'> om oss</span> </h4>
+        <p className='p-6 md:p-0 w-[360px] mx-auto md:w-[400] text-left text-sm md:text-base font-normal'  >Explore Leka – Et selskap startet av oss to; Marieann Aune og Lene Reppen Grydeland, fordi vi elsker å være ute på tur, og våre hjerter banker hardt og varmt for Leka. Denne øya er så vakker, magisk og unik! Hva vi ser- og opplever når vi er ute på tur, DET vil vi bidra med å vise frem til dere som besøker Leka. Vi vil dele vår turglede, våre naturopplevelser og vår kjærlighet til Leka med dere.</p>
         <div className='flex justify-evenly mx-auto items-center'>
             <div>
             <img src='marieann.jpg' className='w-32 h-32 rounded-full p-3 ' />
