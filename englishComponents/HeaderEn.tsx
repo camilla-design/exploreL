@@ -3,9 +3,10 @@ import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+
 type Props = {};
 
-function Header({}: Props) {
+function HeaderEnglish({}: Props) {
   return (
     <div className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center ">
       <motion.div
@@ -30,13 +31,13 @@ function Header({}: Props) {
       <div className="flex flex-row">
         <Link
           href="/"
-          className="mt-1 opacity-100 hover:opacity-70 cursor-pointer transition-opacity"
+          className="mt-1 hover:opacity-100 opacity-70 cursor-pointer transition-opacity"
         >
           <img src="norwegian-flag.png" width={35} />
         </Link>
         <Link
           href="/homeEnglish"
-          className=" hover:opacity-100 opacity-70 cursor-pointer transition-opacity "
+          className="opacity-100 hover:opacity-70  cursor-pointer transition-opacity "
         >
           <img src="english-flag.png" width={35} />
         </Link>
@@ -62,12 +63,12 @@ function Header({}: Props) {
           fgColor="black"
           style={{ width: 70 }}
           bgColor="transparent"
-          url="http://localhost:3000/#contact"
+          url="http://localhost:3000/homeEnglish/#contactEn"
         />
 
-        <Link href="#contact">
+        <Link href="#contactEn">
           <p className="uppercase hidden md:inline-flex text-sm text-black">
-            Ta Kontakt
+            Contact us
           </p>
         </Link>
       </motion.div>
@@ -75,6 +76,6 @@ function Header({}: Props) {
   );
 }
 
-export default Header;
+export default HeaderEnglish;
 
 

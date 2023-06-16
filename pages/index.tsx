@@ -6,8 +6,6 @@ import Hero from '@/components/Hero'
 import ImageGallery from '@/components/ImageGallery';
 import About from '@/components/About'
 import Tours from '@/components/Tours'
-import ExploreTour from '@/components/ExploreTour';
-import SilentTour from '@/components/SitentTour';
 import ContactUs from '@/components/ContactUs';
 
 
