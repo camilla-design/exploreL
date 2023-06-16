@@ -15,12 +15,20 @@
   @apply h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pb-0 mb-0
 }
 
+.wrapperContainer {
+  @apply h-screen flex relative overflow-hidden flex-col md:flex-row max-w-full px-10 justify-evenly mx-auto items-center
+}
+
 .heroBackgroundImg {
   @apply h-screen  inset-0 object-cover object-center mx-auto pb-0 mb-0
 }
 
 .imageGrid {
   @apply grid grid-cols-3 mx-auto items-center justify-center   text-center md:max-w-[900px]
+}
+
+.articleContainer {
+  @apply h-[700px] flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] snap-center
 }
 
 .scrollBar {

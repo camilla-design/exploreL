@@ -9,7 +9,19 @@ export default function ImageGallery({}: Props) {
   return (
 <div className='relative pt-0 mt-0'>
         
-<div className="imageGrid w-full relative -top-[120px]   ">
+<motion.div
+initial={{
+    x:-100,
+    opacity: 0,
+}}
+whileInView={{
+    opacity: 1,
+    x:0,
+}}
+transition={{
+    duration: 1.4,
+}}
+className="imageGrid w-full relative -top-[120px]   ">
           <div className="...">
             <img src="landscape1.jpg" />
           </div>
@@ -21,7 +33,7 @@ export default function ImageGallery({}: Props) {
           </div>
 
           
-        </div>
+        </motion.div >
     
        
     </div>
